@@ -11,7 +11,15 @@ public class Rectangle extends Polygon{
          
     }
 
-    public static Rectangle fromCenter(PlaneVector center, double height, double width) {
+    /**
+     * Construct a new rectangle from given center and dimensions
+     * @param cx the x-coordinate of the rectangle's center
+     * @param cy the y-coordinate of the rectanlge's center
+     * @param height the height of the rectangle
+     * @param width the width of the rectangle
+     * @return a rectangle with the given center and dimensions
+     */
+    public static Rectangle fromCenter(double cx, double cy, double height, double width) {
 
     }
     
