@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public abstract class Polygon implements MeasurableShape {
     private final PlaneVector[] verts;
     private final PlaneVector[] sidelengths;
@@ -34,5 +32,17 @@ public abstract class Polygon implements MeasurableShape {
         PlaneVector[] x = new PlaneVector[sidelengths.length];
         System.arraycopy(sidelengths, 0, x, 0, sidelengths.length);
         return x;
+    }
+
+    @Override 
+    public String toString() {
+        StringBuilder sb = new StringBuilder("Polygon:\n\tvertices:\n");
+        for (PlaneVector pv : verts) {
+            sb.append("\t\t");
+            sb.append(pv.toString());
+            sb.append("\n");
+        }
+
+        return sb.toString();
     }
 }
