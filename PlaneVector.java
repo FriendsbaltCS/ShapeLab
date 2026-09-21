@@ -15,6 +15,7 @@ import java.util.Objects;
  */
 public final class PlaneVector {
     private final Pair<Double, Double> components;
+    private static final PlaneVector ZERO = new PlaneVector(0, 0);
 
     private PlaneVector(double x, double y) {
         this.components = new Pair<>(x, y);
@@ -38,6 +39,10 @@ public final class PlaneVector {
      */
     public static PlaneVector fromPolar(Double r, Double theta) {
 
+    }
+
+    public static PlaneVector zero() {
+        return ZERO;
     }
 
     /**
