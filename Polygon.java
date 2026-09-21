@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public abstract class Polygon implements MeasurableShape {
-    private PlaneVector[] verts;
-    private PlaneVector[] sidelengths;
-    private int dim;
+    private final PlaneVector[] verts;
+    private final PlaneVector[] sidelengths;
+    private final int dim;
 
     public Polygon(PlaneVector[] verts) {
 
