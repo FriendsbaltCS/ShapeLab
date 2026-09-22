@@ -7,7 +7,7 @@ public class Rectangle extends Polygon{
      * @param height the height of the rectangle
      * @param width the width of the rectangle
      */
-    public Rectangle(double x, double y, double height, double width) {
+    public Rectangle(double x, double y, double width, double height) {
          
     }
 
@@ -19,7 +19,7 @@ public class Rectangle extends Polygon{
      * @param width the width of the rectangle
      * @return a rectangle with the given center and dimensions
      */
-    public static Rectangle fromCenter(double cx, double cy, double height, double width) {
+    public static Rectangle fromCenter(double cx, double cy, double width, double height) {
 
     }
     
