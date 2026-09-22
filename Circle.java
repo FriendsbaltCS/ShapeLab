@@ -1,6 +1,6 @@
-public class Circle implements MeasurableShape {
-    PlaneVector center;
-    double radius;
+public final class Circle implements MeasurableShape {
+    private final PlaneVector center;
+    private final double radius;
 
     public Circle(double x, double y, double r) {
 
