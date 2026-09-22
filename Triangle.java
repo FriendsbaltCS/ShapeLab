@@ -1,3 +1,3 @@
-public class Triangle extends Polygon {
+public class Triangle extends SimplePolygon {
     
 }

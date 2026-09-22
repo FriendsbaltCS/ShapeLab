@@ -1,5 +1,4 @@
-
-public class Rectangle extends Polygon {
+public class Rectangle extends SimplePolygon {
 
     /**
      * Constructs a new {@code Rectangle} object from dimensions
