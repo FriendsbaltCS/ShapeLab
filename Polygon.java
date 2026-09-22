@@ -28,7 +28,7 @@ public abstract class Polygon implements MeasurableShape {
         return x;
     }
 
-    public PlaneVector[] sideLengths() {
+    public PlaneVector[] sidelengths() {
         PlaneVector[] x = new PlaneVector[sidelengths.length];
         System.arraycopy(sidelengths, 0, x, 0, sidelengths.length);
         return x;
