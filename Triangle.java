@@ -8,7 +8,7 @@ public class Triangle extends SimplePolygon {
         PlaneVector[] sides = sidelengths();
 
         for (int i = 0; i < sides.length; i++) {
-            int j = (i + 1) & sides.length;
+            int j = (i + 1) % sides.length;
             PlaneVector u = sides[i];
             PlaneVector v = sides[j];
 
