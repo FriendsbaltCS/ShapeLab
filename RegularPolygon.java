@@ -1,4 +1,4 @@
-public class RegularPolygon extends Polygon {
+public class RegularPolygon extends SimplePolygon {
 
     /**
      * Constructs a regular polygon of order n from a center point and a
