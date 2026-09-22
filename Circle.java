@@ -20,6 +20,10 @@ public final class Circle implements MeasurableShape {
 
     }
 
+    public double radius() {
+        
+    }
+
     @Override 
     public double area() {
 
